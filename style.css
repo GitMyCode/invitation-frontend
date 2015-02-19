@@ -77,7 +77,9 @@ iframe { border: none !important; }
 -----------------------------------------------------------------*/
 
 
-h1,
+h1 {
+	font-family: 'css/fonts/Oranienbaum.ttf';
+	},
 h2,
 h3,
 h4,
@@ -11510,17 +11512,23 @@ body:not(.device-touch) .tagcloud a {
 	Wedding
 -----------------------------------------------------------------*/
 
+.invitation-subhead  span{
+	font-family: 'css/fonts/Nexa Light.otf', sans-serif;
+	font-weight: 100;
+	letter-spacing: 3px;
 
-.wedding-head {
+}
+
+.invitation-head {
 	position: relative;
 	line-height: 1;
 	font-size: 80px;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.15);
 }
 
-.wedding-head .first-name,
-.wedding-head .last-name,
-.wedding-head .and {
+.invitation-head .first-name,
+.invitation-head .last-name,
+.invitation-head .and {
 	display: inline-block;
 	margin-right: 15px;
 	font-weight: bold;
@@ -11530,26 +11538,27 @@ body:not(.device-touch) .tagcloud a {
 	letter-spacing: 2px;
 }
 
-.wedding-head .last-name {
+.invitation-head .last-name {
 	margin: 0 0 0 15px;
 	text-align: left;
 }
 
-.wedding-head .first-name span,
-.wedding-head .last-name span {
+.invitation-head .first-name h1,
+.invitation-head .last-name h1 {
 	display: block;
 	margin-top: 10px;
-	font-size: 56px;
+	font-size: 130px;
 	font-weight: 400;
-	font-style: italic;
-	font-family: 'Crete Round', serif;
+	/*font-style: italic;
+	font-family: 'Crete Round', serif;*/
+
 	text-transform: none;
 }
 
-.wedding-head .and {
+.invitation-head h1 {
 	margin: 0;
 	font-size: 200px;
-	font-family: 'Times New Roman', serif;
+	font-family: 'css/fonts/Oranienbaum.ttf', serif;
 }
 
 
