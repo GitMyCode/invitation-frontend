@@ -11522,7 +11522,7 @@ body:not(.device-touch) .tagcloud a {
 .invitation-head {
 	position: relative;
 	line-height: 1;
-	font-size: 80px;
+	font-size: 100px;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.15);
 }
 
@@ -11531,10 +11531,10 @@ body:not(.device-touch) .tagcloud a {
 .invitation-head .and {
 	display: inline-block;
 	margin-right: 15px;
-	font-weight: bold;
-	text-align: right;
-	text-transform: uppercase;
-	font-family: 'Raleway', sans-serif;
+/* 	font-weight: bold;
+	 */	text-align: right;
+	/*text-transform: uppercase;
+	 font-family: 'Raleway', sans-serif; */
 	letter-spacing: 2px;
 }
 
@@ -11555,10 +11555,12 @@ body:not(.device-touch) .tagcloud a {
 	text-transform: none;
 }
 
-.invitation-head h1 {
+.invitation-head {
 	margin: 0;
-	font-size: 200px;
-	font-family: 'css/fonts/Oranienbaum.ttf', serif;
+
+}
+#invitation-head-title{
+	font-family: 'css/fonts/Oranienbaum.ttf', serif ;
 }
 
 
